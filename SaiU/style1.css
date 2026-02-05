@@ -1,0 +1,254 @@
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 1%;
+    font-size: 25px;
+}
+p{
+    font-family: Helvetica;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 25px;
+    font-size: 14px;
+    line-height: 23px;
+    word-spacing: 4px;
+}
+header {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1000;
+}
+body{
+  margin: 0;
+}
+.headerimg {
+  margin: 10px;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  font-family: Helvetica;
+  margin-left: auto;
+  margin-top: 0;
+  font-size: 14.5px;
+  overflow: visible;
+}
+.home {
+  color: rgb(69, 58, 234) !important;
+}
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  padding-top: 21px 40px;
+  height: 100%;
+  align-items: center;
+}
+.menu a {
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+  padding: 10px;
+  font-weight: 650;
+  font-family: Arial;
+}
+.menu li li a {
+  font-family: Helvetica;
+  font-weight: 400;
+}
+.menu a:hover {
+  color: rgb(69, 58, 234);
+  transition: color 0.5s ease;
+}
+
+
+.aboutdropdown, .academicdropdown, .programdropdown, .admissiondropdown {
+  position: relative;
+}
+.aboutmenu, .academicmenu, .programmenu, .admissionmenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 320px;
+  background: white;
+  list-style: none;
+  padding: 10px;
+  margin-top: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  display: none;
+  z-index: 100;
+  border-radius: 5%;
+}
+.aboutmenu li a, .academicmenu li a, .programmenu li a, .admissionmenu li a {
+  display: block;
+  transition: opacity 0.4 ease;
+}
+.aboutmenu li a:hover, .academicmenu li a:hover, .programmenu li a:hover, .admissionmenu li a:hover {
+  background: #f1f3ff;
+  color: rgb(69, 58, 234);
+}
+.aboutdropdown:hover .aboutmenu, .academicdropdown:hover .academicmenu, .programdropdown:hover .programmenu, .admissiondropdown:hover .admissionmenu {
+  display: block;
+}
+
+
+.applybtn {
+  display: flex;
+  padding: 17px;
+  margin-left: 25px;
+  text-decoration: none;
+  background-color: #ea3a3a;
+  color: white;
+  font-size: 10px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.25);
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.applybtn:hover {
+  background-color: rgb(58, 96, 234);
+  transition: 0.5s ease;
+}
+
+.ajith {
+  margin-bottom: 30px;
+}
+
+.schools {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.lawlogo, .buslogo {
+  border-radius: 10px;
+  margin-left: 90px;
+}
+.artlogo, .csclogo, .ailogo, .medialogo, .techlogo, .alllogo {
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.lawheading {
+  color: rgb(12, 12, 158);
+  font-family: Helvetica;
+  font-size: 100%;
+  padding-top: 25px;
+  padding-bottom: 15px;
+  margin-left: -30px;
+}
+.lawdesc {
+  font-family: Helvetica;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.artheading {
+  color: rgb(12, 12, 158);
+  font-family: Helvetica;
+  font-size: 100%;
+  margin-left: -67px;
+  padding-top: 25px;
+  padding-bottom: 12px;
+}
+.artdesc {
+  font-family: Helvetica;
+  margin-left: -45px;
+  padding-top: 20px;
+}
+.cscheading {
+  color: rgb(12, 12, 158);
+  font-family: Helvetica;
+  font-size: 100%;
+  margin-left: 10px;
+  padding-top: 25px;
+  width: 80%;
+}
+.cscdesc {
+  font-family: Helvetica;
+  margin-left: -45px;
+  padding-top: 14px;
+}
+.aiheading {
+  color: rgb(12, 12, 158);
+  font-family: Helvetica;
+  font-size: 100%;
+  margin-left: 10px;
+  padding-top: 25px;
+  width: 80%;
+}
+.aidesc {
+  font-family: Helvetica;
+  margin-left: -45px;
+  padding-top: 14px;
+}
+
+
+
+footer {
+  background-color: black;
+  display: flex;
+  margin-top: 40px;
+}
+.footerimg {
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.footerdesc {
+  color: white;
+  font-family: Helvetica;
+  margin-left: 15px;
+  font-size: 18px;
+}
+.QUICKLINKS {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+.PAGES {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 105px;
+  white-space: nowrap;
+}
+.FOLLOW {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 105px;
+  white-space: nowrap;
+}
+.POLICIES {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  margin-left: 105px;
+}
+.quick, .page, .follow, .policy {
+  color: white;
+  font-family: Helvetica;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.links a {
+  text-decoration: none;
+  font-family: Helvetica;
+  color: white;
+  font-size: 80%;
+  line-height: 3;
+  margin-bottom: 8px;
+}
